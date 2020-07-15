@@ -5,7 +5,6 @@ provider "aws" {
 variable "instance_type" {
   description = "AWS instance type"
   default     = "t2.micro"
-  count = 2  
 }
 
 variable "department" {
